@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    <link rel="sylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+<body>
+    <header class="header"> 
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+    </header>
+    
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">Tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+            <div>
+                <p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría 
+                    sufrió alteraciones en alguna manera, ya sea porque se le agregó 
+                    humor, o palabras aleatorias que no parecen ni un poco creíbles. 
+                    Si vas a utilizar un pasaje de Lorem Ipsum.
+                    El trozo de texto estándar de Lorem Ipsum usado desde el año 1500 es reproducido debajo para aquellos interesados</p>
+
+                    <form class="formulario">
+                        <select class="formulario__campo">
+                            <option disabled selected>--SELECCIONAR TALLA--</option>
+                            <option>CHICA</option>
+                            <option>MEDIANA</option>
+                            <option>GRANDE</option>
+                        </select>
+                        <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                        <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+                    </form>
+            </div>
+        </div>
+    </main>
+
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2024</p>
+    </footer>
+
+</body>
+</html>
+
